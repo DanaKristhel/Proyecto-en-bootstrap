@@ -7,5 +7,17 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "DanaKristhel",
-  "license": "ISC"
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DanaKristhel/Proyecto-en-bootstrap.git"
+  },
+  "bugs": {
+    "url": "https://github.com/DanaKristhel/Proyecto-en-bootstrap/issues"
+  },
+  "homepage": "https://github.com/DanaKristhel/Proyecto-en-bootstrap#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "lite-server": "^2.5.4"
+  }
 }
