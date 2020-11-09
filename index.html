@@ -7,6 +7,8 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/main.css">
+
 
     <title>Hello!</title>
   </head>
@@ -15,9 +17,9 @@
 
     <!-- jumbotron -->
 
-    <div class="jumbotron"> <h1>Hoteles</h1>
+    <div class="jumbotron"> <h1>Hoteles</h1></div>
         <div class="container">
-            <div class="row">
+            <div class="d-flex">
                 <div class="col- col-md-4 col-sm-6">
           <p> <h1>Como reservar</h1>
             Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
@@ -34,34 +36,79 @@
           tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
                 </div>
             </div>
-        <div class="row"> 
-        <div class="col- col-md-3 col-sm-6">
+
+
+        <div class="d-flex flex-wrap flex-row-reverse"> 
+        <div class="card-hotel d-flex flex-column justify-content-between">
             <p> <h1>Hotel Conrad</h1>
               Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
             tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-            <p><a class="btn btn-primary btn-lg" role="button">Leer más</a></p>
+            <p><a class="btn btn-primary btn-lg btn-reserva" role="button">Leer más</a></p>
                   </div>
-            <div class="col- col-md-3 col-sm-6">
+            <div class="card-hotel d-flex flex-column justify-content-between">
             <p> <h1>Hotel Español</h1>
              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
              tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-              <p><a class="btn btn-primary btn-lg" role="button">Leer más</a></p>
+              <p><a class="btn btn-primary btn-lg btn-reserva" role="button">Leer más</a></p>
              </div>
-             <div class="col- col-md-3 col-sm-6">
+             <div class="card-hotel d-flex flex-column justify-content-between">
              <p> <h1>Hotel Gardel</h1>
               Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
               tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-              <p><a class="btn btn-primary btn-lg" role="button">Leer más</a></p>
+              <p><a class="btn btn-primary btn-lg btn-reserva" role="button">Leer más</a></p>
               </div>
-              <div class="col- col-md-3 col-sm-6">
+              <div class="card-hotel d-flex flex-column justify-content-between">
               <p> <h1>Hotel Encuentro</h1>
               Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
               tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-              <p><a class="btn btn-primary btn-lg" role="button">Leer más</a></p>
+              <p><a class="btn btn-primary btn-lg btn-reserva" role="button">Leer más</a></p>
               </div>
+              <div class="card-hotel d-flex flex-column justify-content-between">
+                <p> <h1>Palladium Business Hotel</h1>
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                <p><a class="btn btn-primary btn-lg btn-reserva" role="button">Leer más</a></p>
+                      </div>
+                <div class="card-hotel d-flex flex-column justify-content-between">
+                <p> <h1>Sheraton</h1>
+                 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                 tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                  <p><a class="btn btn-primary btn-lg btn-reserva" role="button">Leer más</a></p>
+                 </div>
+                 <div class="card-hotel d-flex flex-column justify-content-between">
+                 <p> <h1>Kolping</h1>
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                  tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                  <p><a class="btn btn-primary btn-lg btn-reserva" role="button">Leer más</a></p>
+                  </div>
+                  
             </div>
-    </div>
         </div>
+        <footer class="footer">
+            <div class="row">
+            <div class="col-sm-4 d-flex flex-column">
+                <a href="https://www.facebook.com">Facebook</a>
+                <a href="https://www.twitter.com">Twitter</a>
+                <a href="https://www.instagram.com">Instagram</a>
+                <a href="https://www.linkedin.com">LinkedIn</a>
+            </div>
+            <div class="col-sm-4">
+                <address>
+                    <h2>Oficina Central</h2>
+                    <p>Montevideo, Uruguay</p>
+                    <p>+598 0900 1711</p>
+                    <p>contacto@hoteles</p>
+
+                </address>
+            </div>
+            <div class="col-sm-4 d-flex flex-column align-items-end">
+                <a href="https://">Nosotros</a>
+                <a href="https://">Precios</a>
+                <a href="https://">Terminos y condiciones</a>
+                <a href="https://">Contacto</a>
+            </div>
+        </div>
+        </footer>
 <!-- jquery, popper, bootstrap -->
     <script src="node_modules/jquery/dist/jquery.min.js"></script>
     <script src="node_modules/popper.js/dist/popper.min.js"></script>
