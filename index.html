@@ -45,31 +45,49 @@
 
       <div class="jumbotron"> <h1>Hoteles</h1></div>
         <div class="container">
-          <div>
-            <nav aria-label="breadcrumb">
-              <ol class="breadcrumb">
-                <li class="breadcrumb-item active" aria-current="page">Home</li>
-              </ol>
-            </nav>
-          </div>
+          <nav aria-label="breadcrumb">
+            <ol class="breadcrumb">
+              <li class="breadcrumb-item active" aria-current="page">Home</li>
+            </ol>
+          </nav>
           <div>
             <img class = "img-fluid" src="images/regency-park-banner-piscina.jpg" alt="Imagen responsive"></img>
           </div>
-          <div class="d-flex flex-wrap flex-row-reverse">
-            <div class="col- col-md-4 col-sm-6">
-              <p> <h3>Como reservar</h3>
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                  tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+          <div class="row">
+            <div class="col-sm-4">
+              <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#reservar" aria-expanded="false" aria-controls="multiCollapse1">¿Como reservo?</button>
             </div>
-            <div class="col- col-md-4 col-sm-6">
-              <p> <h3>Que ventajas tiene la reserva anticipada</h3>
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+            <div class="col-sm-4">
+              <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#ventajas" aria-expanded="false" aria-controls="multiCollapse2">Ventajas</button>
             </div>
-            <div class="col- col-md-4 col-sm-6">
-              <p><h3>Mas informacion</h3>
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+            <div class="col-sm-4">
+              <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#informacion" aria-expanded="false" aria-controls="multiCollapse3">Mas informacion</button>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-sm-4 collapse multi-collapse" id="reservar">
+              <p>
+                <h3>Como reservar</h3>
+                  <p>  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                  tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                  </p>
+              </p>
+            </div>
+            <div class="col-sm-4 collapse multi-collapse" id="ventajas">
+              <p> 
+                <h3>Que ventajas tiene la reserva anticipada</h3>
+                  <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+                  </p>
+              </p>
+            </div>
+            <div class="col-sm-4 collapse multi-collapse" id="informacion">
+              <p>
+                <h3>Mas informacion</h3>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                  </p>
+              </p> 
             </div>
           </div>
 
