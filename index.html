@@ -122,8 +122,8 @@
                 <img class="card-img-top" src="/images/enjoy.jpg" alt="Hotel Enjoy">
                 <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
                   tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-                  <button type="button" class="btn btn-outline-success" data-toggle="modal" data-target="#contacto">Contacto</button>
-                </div>
+                  <button type="button" class="btn btn-outline-success" data-toggle="modal" data-target="#contacto" id="contactoBtn">Contacto</button>
+               </div>
                 <div>
                   <button type="button" class="btn btn-primary btn-lg btn-reserva" data-toggle="popover" title="Promo! Consultá las promociones vigentes">Leer más</button>
                 </div>        
@@ -135,7 +135,7 @@
                 <img class="card-img-top" src="/images/hotel-espanol.jpg" alt="Hotel Español">
                 <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
                 tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-                <button type="button" class="btn btn-outline-success" data-toggle="modal" data-target="#contacto">Contacto</button>
+                <button type="button" class="btn btn-outline-success" data-toggle="modal" data-target="#contacto" id="contactoBtn">Contacto</button>
                 </div>
                 <div>
                   <button type="button" class="btn btn-primary btn-lg btn-reserva" data-toggle="popover" title="Promo! Consultá las promociones vigentes">Leer más</button>
@@ -148,7 +148,7 @@
                 <img class="card-img-top" src="/images/gardel.jpg" alt="Hotel Carlos Gardel">
                 <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
                   tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-                  <button type="button" class="btn btn-outline-success" data-toggle="modal" data-target="#contacto">Contacto</button>
+                <button type="button" class="btn btn-outline-success" data-toggle="modal" data-target="#contacto" id="contactoBtn">Contacto</button>
                 </div>
                 <div>
                   <button type="button" class="btn btn-primary btn-lg btn-reserva" data-toggle="popover" title="Promo! Consultá las promociones vigentes">Leer más</button>
@@ -161,7 +161,7 @@
                 <img class="card-img-top" src="/images/Regency Golf Hotel Urbano.jpg" alt="Regency Golf Hotel Urbano">
                 <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
                   tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-                  <button type="button" class="btn btn-outline-success" data-toggle="modal" data-target="#contacto">Contacto</button>
+                <button type="button" class="btn btn-outline-success" data-toggle="modal" data-target="#contacto" id="contactoBtn">Contacto</button>
                 </div>
                 <div>
                   <button type="button" class="btn btn-primary btn-lg btn-reserva" data-toggle="popover" title="Promo! Consultá las promociones vigentes">Leer más</button>
@@ -174,7 +174,7 @@
                 <img class="card-img-top" src="/images/Palladium Business Hotel.jpg" alt="Palladium Business Hotel">
                 <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
                   tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-                  <button type="button" class="btn btn-outline-success" data-toggle="modal" data-target="#contacto">Contacto</button>
+                <button type="button" class="btn btn-outline-success" data-toggle="modal" data-target="#contacto" id="contactoBtn">Contacto</button>
                 </div>
                 <div>
                   <button type="button" class="btn btn-primary btn-lg btn-reserva" data-toggle="popover" title="Promo! Consultá las promociones vigentes">Leer más</button>
@@ -187,7 +187,7 @@
                 <img class="card-img-top" src="/images/sheraton.jpg" alt="Sheraton">
                 <p class="card-text"> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
                   tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-                  <button type="button" class="btn btn-outline-success" data-toggle="modal" data-target="#contacto">Contacto</button>
+                  <button type="button" class="btn btn-outline-success" data-toggle="modal" data-target="#contacto" id="contactoBtn">Contacto</button>
                 </div>
                 <div>
                   <button type="button" class="btn btn-primary btn-lg btn-reserva" data-toggle="popover" title="Promo! Consultá las promociones vigentes">Leer más</button>
@@ -200,7 +200,7 @@
                 <img class="card-img-top" src="/images/Kolping.jpg" alt="Kolping">
                 <p class="card-text"> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
                   tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-                <button type="button" class="btn btn-outline-success" data-toggle="modal" data-target="#contacto">Contacto</button>
+                <button type="button" class="btn btn-outline-success" data-toggle="modal" data-target="#contacto" id="contactoBtn">Contacto</button>
               </div>
               <div>
                 <button type="button" class="btn btn-primary btn-lg btn-reserva" data-toggle="popover" title="Promo! Consultá las promociones vigentes">Leer más</button>
@@ -266,13 +266,33 @@
     <script src="node_modules/popper.js/dist/popper.min.js"></script>
     <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
     <script>
-      $(function () {
+      $(function() {
         $("[data-toggle='tooltip']").tooltip();
         $("[data-toggle=popover]").popover();
         $('.carousel').carousel({
-          interval: 100
+          interval: 100,
         });
       });
+    </script>
+    <script>  
+      $('#contacto').on('show.bs.modal', function(e){
+          console.log('modal visible');
+          $('#contactoBtn').removeClass('btn-outline-success');
+          $('#contactoBtn').addClass('btn-primary');
+          $('#contactoBtn').prop('disabled', true); 
+      });
+      $('#contacto').on('hidden.bs.modal', function(e){
+        console.log('el modal contacto se ocultó');
+        $('#contactoBtn').prop('disabled', false);
+      });
+      $('#contacto').on('hide.bs.modal', function(e){
+        console.log('el modal contacto se oculta');
+      });
+      $('#contacto').on('shown.bs.modal', function(e){
+        console.log('el modal contacto se mostró');
+      });
+       
+        
     </script>
   </body>
 </html>
