@@ -1,0 +1,62 @@
+$rosa: #ffd0b3;
+$amarillo: #fcba03;
+$rojo: #bd1000;
+$verde: #0ceb74;
+
+@mixin margins($top, $bottom){
+    margin-top: $top;
+    margin-bottom: $bottom;
+}
+@mixin paddings($mleft, $mtop, $mright, $mbottom, ){
+    margin-top: $mtop;
+    margin-bottom: $mbottom;
+    margin-left: $mleft;
+    margin-right: $mright
+}
+
+.jumbotron {
+    background-color: $rosa;
+    color: black;
+    @include margins(50px, 10px)
+}
+/* .btn {
+    background-color: #ffd0b3;
+    color: black;
+
+}*/
+.footer {
+    @include paddings(10px, 10px, 0px, 10px);
+    background-color: $amarillo;
+    @include margins(10px, 0px)
+}
+.footer-address-icon{
+@include paddings(10px, 0px, 0px, 25px)
+}
+.foo-add-ico{
+    padding-right: 10px;
+
+}
+.card-hotel{
+    flex: 1 200px;
+    padding: 2px 4px 2px 4px;
+    @include margins(10px, 0px)
+    background-color: $verde;
+   /*d-flex;
+   flex-column;
+   justify-space-content-between;*/
+}
+.btn-reserva {
+    width: 100%;
+    
+}
+.card{
+    min-width: 250px;
+    img-max-width: 50px;
+}
+.tab-content{
+    padding-top: 5px;
+    background-color: $amarillo;
+}
+.btn-index{
+    margin-top: 10px;
+}
