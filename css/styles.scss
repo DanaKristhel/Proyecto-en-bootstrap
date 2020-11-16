@@ -39,7 +39,7 @@ $verde: #ccfce0;
 .card-hotel{
     flex: 1 200px;
     padding: 2px 4px 2px 4px;
-    @include margins(10px, 0px)
+    @include margins(10px, 0px);
     background-color: $verde;
    /*d-flex;
    flex-column;
